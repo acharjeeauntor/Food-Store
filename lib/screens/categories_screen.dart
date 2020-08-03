@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:foodstore/category_item.dart';
-import 'dummy_data.dart';
+import 'file:///F:/Projects/AndroidFlutter/food_store/lib/widgets/category_item.dart';
+import '../dummy_data.dart';
 
 class CategoriesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(
-          title: Text("Food-Store"),
-        ),
         body: GridView(
           padding: const EdgeInsets.all(20),
           gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
